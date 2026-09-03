@@ -1,46 +1,54 @@
-# Banking operations <a name="readme-top"></a>
-![Static Badge](https://img.shields.io/badge/status-completed-green?style=for-the-badge)
+# Banking Operations 🏦
 
-## Introduction
-**Banking operations** is a banking backend interface application that implements various banking functions. This project was developed to demonstrate skills in object-oriented design.
+![Status](https://img.shields.io/badge/status-completed-green?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-Beginner-orange?style=for-the-badge&logo=java)
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Contributors](#contributors)
+A terminal-based Java application that simulates basic bank account operations — checking balance, transferring funds, and receiving payments through a menu-driven interface.
 
-## Installation
+---
 
-### Prerequisites
-- Java JDK 18+ installed
-- An IDE such as IntelliJ IDEA, Eclipse, or NetBeans installed
+## Overview
 
-### Steps to run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/victorhubarb/banking-operations.git
-   cd banking-operations
-   ```
-2. Open the project in your preferred IDE:
-- Import the project into your IDE (e.g., using “Open Project” in IntelliJ or “Import Project” in Eclipse).
-- Ensure the project uses the correct Java SDK (JDK 18+).
+This was one of my first Java projects, built to practice core language fundamentals: variables, data types, conditional logic, loops, and user input with Scanner. The application simulates a simple banking session where the user can interact with a pre-loaded account through a text menu.
 
-3. Run the application:
-- Locate the Main class in the project structure.
-- Right-click on the Main class and select Run.
+It's a straightforward exercise, but it's where I got comfortable with Java's syntax and control flow before moving on to object-oriented design.
 
-## Usage
-The application allows you to perform basic banking operations such as deposits, withdrawals, and printing account statements. Each operation updates the account balance and logs the transactions for future reference.
+---
 
 ## Features
-- **Deposits and Withdrawals**: Allows users to make deposits and withdrawals from their bank accounts.
-- **Statement Printing**: Generates detailed bank statements with information about the date, transaction type (credit or debit) and balance after each transaction.
 
-## Technologies
-- **Java**
+- **Check Balance** — displays the current account balance
+- **Transfer Funds** — deducts a value with insufficient funds validation
+- **Receive Payment** — adds an incoming value to the balance
+- **Menu Loop** — runs continuously until the user chooses to exit
 
-## Contributors
-- [Victor Barbosa](https://github.com/victorhubarb)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
+
+## How to Run
+
+**Prerequisites:** Java 8 or higher + any IDE
+
+```bash
+git clone https://github.com/victorhubarb/banking-operations.git
+cd banking-operations
+
+javac src/Challenge.java -d out
+java -cp out Challenge
+```
+
+---
+
+## What I Learned
+
+- Java syntax and basic data types (`String`, `double`, `int`)
+- `Scanner` for reading user input from the terminal
+- `while` loops and `if/else` conditional chains
+- Input validation (checking balance before allowing a transfer)
+- Text block strings for cleaner multiline output
+
+---
+
+## Author
+
+**Victor Hugo Barbosa**
+[GitHub](https://github.com/victorhubarb) · [LinkedIn](https://www.linkedin.com/in/victorhbarbosa/)
