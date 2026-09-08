@@ -9,9 +9,7 @@ A terminal-based Java application that simulates basic bank account operations �
 
 ## Overview
 
-This was one of my first Java projects, built to practice core language fundamentals: variables, data types, conditional logic, loops, and user input with Scanner. The application simulates a simple banking session where the user can interact with a pre-loaded account through a text menu.
-
-It's a straightforward exercise, but it's where I got comfortable with Java's syntax and control flow before moving on to object-oriented design.
+This was one of my first Java projects. Nothing fancy — just a menu loop, a Scanner reading input, and some conditionals controlling what happens to a balance. But that's exactly the point. Before you can write OOP, you have to get comfortable with the basics: variables, types, loops, and input validation. This is where I got there.
 
 ---
 
@@ -43,7 +41,7 @@ java -cp out Challenge
 - Java syntax and basic data types (`String`, `double`, `int`)
 - `Scanner` for reading user input from the terminal
 - `while` loops and `if/else` conditional chains
-- Input validation (checking balance before allowing a transfer)
+- Input validation — checking balance before allowing a transfer
 - Text block strings for cleaner multiline output
 
 ---
